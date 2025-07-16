@@ -1,0 +1,214 @@
+* {
+    margin: 0px;
+    /* background-color: #1E1E1E; */
+}
+
+.work-sans-merriweather {
+    font-family: "Merriweather", serif;
+}
+
+.work-sans-inter {
+    font-family: "Inter", sans-serif;
+}
+
+/* header styles */
+
+header {
+    margin: 50px 140px 0px;
+    background-image: linear-gradient(180deg, rgba(7, 2, 17, 100), rgba(7, 2, 17, 0)), url('/images/Banner_Image.png');
+    /* background-size: contain; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+
+.greetings {
+    text-align: center;
+    padding: 250px 344px;
+}
+
+.greetings h2 {
+    color: #FFFFFF;
+    font-size: 32px;
+}
+
+.greetings h1 {
+    color: #FFFFFF;
+    font-size: 72px;
+}
+
+/* offer styles */
+
+.offer {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.offer h2 {
+    color: #FF0000;
+    font-size: 88px;
+}
+
+.offer h5 {
+    color: #FF0000;
+    font-size: 24px;
+    margin-top: 48px;
+}
+
+.offer h3 {
+    color: #070211;
+    font-size: 48px;
+    margin-top: 16px;
+}
+
+.new-year-logo {
+    margin-top: 48px;
+}
+
+/* banner-2 styles */
+
+.banner-2 {
+    margin: 120px 140px;
+    background-image: linear-gradient(90deg, rgba(7, 2, 17, 100), rgba(7, 2, 17, 0)), url(/images/Vectorrr.png);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 100px 140px;
+}
+
+.banner-info h2 {
+    font-size: 64px;
+    color: #FFFFFF;
+}
+
+.banner-info p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+.banner-info button {
+    margin-top: 48px;
+    background: none;
+    color: #FFFFFF;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 32px;
+}
+
+/* time card styles */
+
+.time-card {
+    margin: 120px 140px;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0));
+    text-align: center;
+    font-size: 32px;
+    padding-top: 100px;
+    border-radius: 16px;
+}
+
+.time-card span {
+    color: #FF0000;
+}
+
+.time-card button {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    border: none;
+    padding: 16px 32px 16px 32px;
+    cursor: pointer;
+    margin-top: 64px;
+    margin-bottom: 120px;
+}
+
+/* coming soon styles */
+
+.coming-soon {
+    margin: 120px 140px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.coming-soon-1 h4 {
+    color: #FF0000;
+    font-size: 24px;
+}
+
+.coming-soon-1 h2 {
+    font-size: 48px;
+    margin-top: 16px;
+}
+
+.coming-soon-1 p {
+    margin-top: 22px;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.coming-soon-1 {
+    flex: 33%;
+}
+
+.coming-soon-2 {
+    flex: 33%;
+}
+
+.coming-soon-2 img {
+    padding: 30px;
+    border: 15px #FF0000 solid;
+    border-radius: 50%;
+}
+
+.coming-soon-3 {
+    flex: 33%;
+}
+
+.coming-soon-3 h3 {
+    font-size: 48px;
+    color: #FF0000;
+}
+
+.coming-soon-3 p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+.coming-soon-3 img {
+    margin-top: 40px;
+}
+
+/* holidays-sale styles */
+
+.holidays-sale {
+    text-align: center;
+    margin: 120px 140px;
+}
+
+.holidays-sale h4 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holidays-sale h1 {
+    font-size: 72px;
+    margin-top: 16px;
+}
+
+.holidays-sale span {
+    color: #FF0000;
+}
+
+.holidays-sale p {
+    font-size: 20px;
+    color: #070211;
+    margin-top: 28px;
+}
