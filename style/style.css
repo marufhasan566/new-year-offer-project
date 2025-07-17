@@ -209,6 +209,181 @@ header {
 
 .holidays-sale p {
     font-size: 20px;
-    color: #070211;
+    color: rgba(7, 2, 17, 0.6);
+    margin: 0px 125px;
     margin-top: 28px;
+}
+
+.gift-box {
+    margin-top: 64px;
+    background-image: url(/images/Rectangle_2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+/* portfolio styles */
+.portfolio {
+    margin: 120px 140px;
+}
+
+.portfolio h4 {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.portfolio h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 16px;
+}
+
+.portfolio p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    margin-top: 22px;
+    max-width: 50%;
+}
+
+.gifts {
+    margin-top: 48px;
+}
+
+.gift img {
+    cursor: pointer;
+}
+
+.gifts-1,
+.gifts-2 {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.gifts-2 {
+    margin-top: 24px;
+}
+
+/* newsletter styles */
+
+.newsletter {
+    margin: 120px 140px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+}
+
+.newsletter img {
+    padding-top: 80px;
+}
+
+.newsletter h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 45px;
+}
+
+.newsletter p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    margin-top: 22px;
+    /* margin-bottom: 48px; */
+}
+
+.newsletter .buttons {
+    margin-top: 48px;
+    padding-bottom: 80px;
+}
+
+.newsletter .buttons input[type=email] {
+    padding: 25px 265px 25px 30px;
+    border-radius: 50px 0px 0px 50px;
+    font-size: 18px;
+    border: none;
+}
+
+.newsletter .buttons input[type=submit] {
+    padding: 24px 56px;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+/* footer styles */
+footer {
+    margin-top: 120px;
+    background-color: rgb(7, 2, 17);
+}
+
+.address {
+    padding-top: 120px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    /* margin-bottom: 50px; */
+}
+
+address {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.phone-website {
+    color: #FFFFFF;
+}
+
+.phone-website h6 {
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 15px; */
+}
+
+.phone-website img {
+    margin-right: 15px;
+}
+
+footer hr {
+    color: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 0px 140px;
+    margin-top: 50px;
+}
+
+.social-icons {
+    margin-top: 45px;
+    text-align: center;
+}
+
+.social-icons img {
+    margin-right: 10px;
+}
+
+.copyright {
+    margin: 50px 140px 120px 140px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright h6 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #FF0000;
 }
