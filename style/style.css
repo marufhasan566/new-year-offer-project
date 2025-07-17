@@ -381,6 +381,7 @@ footer hr {
 .copyright h6 {
     font-size: 24px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .copyright a {
